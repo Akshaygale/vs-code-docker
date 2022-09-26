@@ -6,12 +6,12 @@ app.get('/', (req, res) => {
     res.json([
         {
             "id": "1",
-            "name": "aksh"
+            "name": "Naruto Uzumaki"
         },
 
         {
             "id": "2",
-            "name": "Vikash"
+            "name": "Itachi Uchiha"
         },
     ])
 })
