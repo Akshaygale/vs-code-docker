@@ -47,11 +47,11 @@ Inside this project I have passing the simple JSON response by using node.js .
 
 And after that I have created Dockerfile to build the docker image by using this command
 
-<h3>docker build -t <image_name> . </h3>
+<b> docker build -t <image_name> . </b>
 
 After that to create a container for that image, so we can run that image, we need to use the below command
 
-<h3>docker run -d -p 4000:4000 --name <container_name> <image_name> </h3>
+<b>docker run -d -p 4000:4000 --name <container_name> <image_name> </b>
 
 Output of my Express web application
 
